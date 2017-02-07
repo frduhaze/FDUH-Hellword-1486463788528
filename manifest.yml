@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: FDUH-Hellword
+  host: FDUH-Hellword
+  disk_quota: 1024M
+  services:
+  - Cloudant NoSQL DB-jf
